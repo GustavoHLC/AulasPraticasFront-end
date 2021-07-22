@@ -20,6 +20,20 @@
             height: 35px;
             padding: 30;
         }
+
+        .inputs {
+            width: 800px;
+        }
+
+        .tamanho {
+            width: 100px;
+            height: 100px;
+            padding: 30px;
+        }
+
+        .mt-10 {
+            margin-top: 420px;
+        }
     </style>
 </head>
 
@@ -77,49 +91,86 @@
     </nav>
     <!--/Menu-->
     <!--Postagem-->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h4 class="text-center">Kill/Death</h4>
+    <div class="container-fluid">
+        <section class="d-flex justify-content-start">
+            <div class="inputs d-flex justify-content-center ">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h4 class="text-center">Kills/Deaths</h4>
+                        <form>
+                            <div class="form-group">
+                                <label for="killer">Killer</label>
+                                <input type="text" class="form-control" id="killer" placeholder="Killer">
+                            </div>
+                            <div class="form-group">
+                                <label for="victim">Victim</label>
+                                <input type="text" class="form-control" id="victim" placeholder="Victim">
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-outline-dark">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <form>
-                    <div class="form-group">
-                        <label for="kill">Killer</label>
-                        <input type="text" class="form-control" id="kill" placeholder="nome Killer">
+            <div class="build">
+                <div class="container">
+                    <div class="card-deck">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">teste1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                                    corrupti nam excepturi
+                                    molestiae, ex deserunt itaque velit enim repudiandae sit asperiores. Est recusandae
+                                    reiciendis officiis
+                                    ipsam modi illo harum incidunt?</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">teste2</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex soluta
+                                    sed quas nulla, eaque
+                                    distinctio nisi odio cum. Nesciunt officia quae deleniti recusandae, itaque
+                                    accusantium in assumenda enim
+                                    possimus hic?</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">teste3</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+                                    recusandae dolorum
+                                    corrupti magni mollitia, ratione repellendus architecto, quod rerum assumenda
+                                    laboriosam adipisci facere
+                                    laudantium excepturi quibusdam dolor asperiores consectetur est.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="death">Victim</label>
-                        <input type="text" class="form-control" id="death" placeholder="nome Victim">
-                    </div>
-                    <div class="form-group">
-                        <button class="btn btn-outline-dark">Enviar</button>
-                    </div>
-                </form>
+                </div>
             </div>
-        </div>
+        </section>
     </div>
+    <!--/Postagem-->
     <!--Rodapé-->
-    <hr>
+    <hr class="mt-10">
     <footer>
-        <div class="row mb-3">
+        <div class="row">
             <div class="col-md-12 d-flex justify-content-center">
                 <div>
-                    <a href="https://www.linkedin.com/in/gustavo-henrique-lourenço-carvalho-9b470919b/" target="_blank"
-                        class="p-3">
-                        <img class='tm-social' src="./assets/img/linkedin.png" alt="logo do linkedin" width='50px'>
+                    <a href="https://www.linkedin.com/in/gustavo-henrique-lourenço-carvalho-9b470919b/" target="_blank">
+                        <img class='tm-social' src="./assets/img/linkedin.png" alt="logo do linkedin">
                     </a>
                 </div>
                 <div>
-                    <a href="https://github.com/GustavoHLC" target="_blank" class="p-3">
-                        <img class="tm-social" src="./assets/img/github.png" alt="logo do github " width='100px'>
+                    <a href="https://github.com/GustavoHLC" target="_blank">
+                        <img class="tm-social" src="./assets/img/github.png" alt="logo do github ">
                     </a>
                 </div>
                 <div>
-                    <a href="https://www.instagram.com/guugs_henri/" target="_blank" class="p-3">
-                        <img class="tm-social" src="./assets/img/instagram.png" alt="logo do instagram " width='50px'>
+                    <a href="https://www.instagram.com/guugs_henri/" target="_blank">
+                        <img class="tm-social" src="./assets/img/instagram.png" alt="logo do instagram ">
                     </a>
                 </div>
             </div>

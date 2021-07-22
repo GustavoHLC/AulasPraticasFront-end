@@ -20,10 +20,21 @@
             height: 35px;
             padding: 30;
         }
+
+        .inputs {
+            width: 800px;
+        }
+
+        .tamanho {
+            width: 100px;
+            height: 100px;
+            padding: 30px;
+        }
     </style>
 </head>
 
 <body>
+
     <!--Menu-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
@@ -77,49 +88,88 @@
     </nav>
     <!--/Menu-->
     <!--Postagem-->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h4 class="text-center">Buils para PvE</h4>
+    <div class="container-fluid">
+        <section class="d-flex justify-content-start">
+            <div class="inputs d-flex justify-content-center ">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h4 class="text-center">builds para PvE</h4>
+                        <form>
+                            <div class="form-group">
+                                <label for="nomeB">nome da build</label>
+                                <input type="text" class="form-control" id="nomeB">
+                            </div>
+                            <div class="form-group">
+                                <label for="cabeca">Equip da cabeça</label>
+                                <input type="text" class="form-control" id="cabeca"
+                                    placeholder="equipe da cabeça + tier">
+                            </div>
+                            <div class="form-group">
+                                <label for="capa">Qual capa equipar</label>
+                                <input type="text" class="form-control" id="capa" placeholder="capa equipada + tier">
+                            </div>
+                            <div class="form-group">
+                                <label for="peito">Equip do peito</label>
+                                <input type="text" class="form-control" id="peito" placeholder="equipe do peito + tier">
+                            </div>
+                            <div class="form-group">
+                                <label for="pe">Equip do pé</label>
+                                <input type="text" class="form-control" id="pe" placeholder="equipe do pé + tier">
+                            </div>
+                            <div class="form-group">
+                                <label for="comida">Qual comida equipar</label>
+                                <input type="text" class="form-control" id="comida"
+                                    placeholder="comida equipada + tier">
+                            </div>
+                            <div class="form-group">
+                                <label for="pot">Qual poção equipar</label>
+                                <input type="text" class="form-control" id="pot" placeholder="poção equipada + tier">
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-outline-dark">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <form>
-                    <div class="form-group">
-                        <label for="nomeB">nome da build</label>
-                        <input type="text" class="form-control" id="nomeB">
+            <div class="build">
+                <div class="container">
+                    <div class="card-deck">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">teste1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                                    corrupti nam excepturi
+                                    molestiae, ex deserunt itaque velit enim repudiandae sit asperiores. Est recusandae
+                                    reiciendis officiis
+                                    ipsam modi illo harum incidunt?</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">teste2</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex soluta
+                                    sed quas nulla, eaque
+                                    distinctio nisi odio cum. Nesciunt officia quae deleniti recusandae, itaque
+                                    accusantium in assumenda enim
+                                    possimus hic?</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">teste3</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+                                    recusandae dolorum
+                                    corrupti magni mollitia, ratione repellendus architecto, quod rerum assumenda
+                                    laboriosam adipisci facere
+                                    laudantium excepturi quibusdam dolor asperiores consectetur est.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="cabeca">Equip da cabeça</label>
-                        <input type="text" class="form-control" id="cabeca" placeholder="equipe da cabeça">
-                    </div>
-                    <div class="form-group">
-                        <label for="capa">Qual capa equipar</label>
-                        <input type="text" class="form-control" id="capa" placeholder="capa equipada">
-                    </div>
-                    <div class="form-group">
-                        <label for="peito">Equip do peito</label>
-                        <input type="text" class="form-control" id="peito" placeholder="equipe do peito">
-                    </div>
-                    <div class="form-group">
-                        <label for="pe">Equip do pé</label>
-                        <input type="text" class="form-control" id="pe" placeholder="equipe do pé">
-                    </div>
-                    <div class="form-group">
-                        <label for="comida">Qual comida equipar</label>
-                        <input type="text" class="form-control" id="comida" placeholder="comida equipada">
-                    </div>
-                    <div class="form-group">
-                        <label for="pot">Qual poção equipar</label>
-                        <input type="text" class="form-control" id="pot" placeholder="poção equipada">
-                    </div>
-                    <div class="form-group">
-                        <button class="btn btn-outline-dark">Enviar</button>
-                    </div>
-                </form>
+                </div>
             </div>
-        </div>
+        </section>
     </div>
     <!--/Postagem-->
 
