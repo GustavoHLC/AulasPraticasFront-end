@@ -14,13 +14,21 @@
             height: 115px;
             padding: 30px;
         }
+
+        .tm-logo {
+            width: 35px;
+            height: 35px;
+            padding: 30;
+        }
     </style>
 </head>
 
 <body>
     <!--Menu-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Jogatina Albion</a>
+        <a class="navbar-brand" href="#">
+            <img class="tm-logo" src="assets/img/a.png" alt="Logo provisorio de albion">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
             aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -36,8 +44,8 @@
                         Builds
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="PvP.html">PvE</a>
-                        <a class="dropdown-item" href="PvE.html">PvP</a>
+                        <a class="dropdown-item" href="PvE.html">PvE</a>
+                        <a class="dropdown-item" href="PvP.html">PvP</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -68,7 +76,52 @@
         </div>
     </nav>
     <!--/Menu-->
-
+    <!--Postagem-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="text-center">Buils para PvE</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <form>
+                    <div class="form-group">
+                        <label for="nomeB">nome da build</label>
+                        <input type="text" class="form-control" id="nomeB">
+                    </div>
+                    <div class="form-group">
+                        <label for="cabeca">Equip da cabeça</label>
+                        <input type="text" class="form-control" id="cabeca" placeholder="equipe da cabeça">
+                    </div>
+                    <div class="form-group">
+                        <label for="capa">Qual capa equipar</label>
+                        <input type="text" class="form-control" id="capa" placeholder="capa equipada">
+                    </div>
+                    <div class="form-group">
+                        <label for="peito">Equip do peito</label>
+                        <input type="text" class="form-control" id="peito" placeholder="equipe do peito">
+                    </div>
+                    <div class="form-group">
+                        <label for="pe">Equip do pé</label>
+                        <input type="text" class="form-control" id="pe" placeholder="equipe do pé">
+                    </div>
+                    <div class="form-group">
+                        <label for="comida">Qual comida equipar</label>
+                        <input type="text" class="form-control" id="comida" placeholder="comida equipada">
+                    </div>
+                    <div class="form-group">
+                        <label for="pot">Qual poção equipar</label>
+                        <input type="text" class="form-control" id="pot" placeholder="poção equipada">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-outline-dark">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--/Postagem-->
 
 
     <!--Rodapé-->

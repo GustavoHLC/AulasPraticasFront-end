@@ -14,13 +14,21 @@
             height: 115px;
             padding: 30px;
         }
+
+        .tm-logo {
+            width: 35px;
+            height: 35px;
+            padding: 30;
+        }
     </style>
 </head>
 
 <body>
     <!--Menu-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Jogatina Albion</a>
+        <a class="navbar-brand" href="#">
+            <img class="tm-logo" src="assets/img/a.png" alt="Logo provisorio de albion">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
             aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -36,8 +44,8 @@
                         Builds
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="PvP.html">PvE</a>
-                        <a class="dropdown-item" href="PvE.html">PvP</a>
+                        <a class="dropdown-item" href="PvE.html">PvE</a>
+                        <a class="dropdown-item" href="PvP.html">PvP</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -68,9 +76,31 @@
         </div>
     </nav>
     <!--/Menu-->
-
-
-
+    <!--Postagem-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="text-center">Kill/Death</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <form>
+                    <div class="form-group">
+                        <label for="kill">Killer</label>
+                        <input type="text" class="form-control" id="kill" placeholder="nome Killer">
+                    </div>
+                    <div class="form-group">
+                        <label for="death">Victim</label>
+                        <input type="text" class="form-control" id="death" placeholder="nome Victim">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-outline-dark">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     <!--Rodapé-->
     <hr>
     <footer>
